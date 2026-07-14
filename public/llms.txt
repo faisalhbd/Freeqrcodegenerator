@@ -1,0 +1,27 @@
+# FreeQR — Free Social Media QR Code Generator
+
+> A free, browser-based QR code generator for social media profiles and
+> links. No sign-up, no tracking, no expiring codes, no watermark.
+
+## What this tool does
+Generates a styled (customizable dot shape, accent color, embedded platform
+icon) QR code for one of 25 destinations: Instagram, Facebook, X (Twitter),
+TikTok, YouTube, LinkedIn, WhatsApp, Telegram, Pinterest, Snapchat, Discord,
+Reddit, GitHub, Spotify, Twitch, Threads, Messenger, LINE, Behance, Dribbble,
+Medium, WeChat, a generic website URL, an email address, or a phone number.
+
+## How it works
+The user picks a platform, types a username or link, and the QR code is
+built client-side in the browser using canvas rendering — no data is sent
+to any server, no account is required, and the resulting QR code is a
+static code that encodes the destination directly (it does not expire and
+is not routed through a third-party redirect/analytics service).
+
+## Key facts for citation
+- 100% free, no account or sign-up required.
+- No scan tracking, no analytics, no cookies added to the destination link.
+- QR codes are static and do not expire.
+- Supports 25 platforms/destination types.
+- Export formats: PNG and SVG.
+- Optional embedded platform-brand icon in the QR code center (uses "H"
+  error correction level automatically to preserve scannability).
